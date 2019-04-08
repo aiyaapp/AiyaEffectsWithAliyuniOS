@@ -1,0 +1,5 @@
+//新的产品化的视频直播
+//AlivcLiveModel：数据的请求，具体的接口封装在各自的model里数据管理和逻辑抽象
+//AlivcLiveView：自定义view的展示与封装
+//AlivcLiveControl:视图控制器
+AlivcLiveRoomView:这虽然是一个view，但是设计上，在直播和播放的界面上，它作为所有自定义视图的容器，并且要处理所有播放和直播过程中的事物，如何使用它也十分简单，在AlivcLivePlayViewController有示例的代码
