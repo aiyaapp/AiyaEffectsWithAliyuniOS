@@ -367,8 +367,6 @@
 		F3A3306B20DB8C3500A21014 /* AlivcAnswerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A3303F20DB8C3500A21014 /* AlivcAnswerModel.m */; };
 		F3A3306C20DB8C3500A21014 /* AliyunJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A3304320DB8C3500A21014 /* AliyunJSONModel.m */; };
 		F3A3306F20DB8C3500A21014 /* AlivcLibDynamicWaterMark.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F3A3304B20DB8C3500A21014 /* AlivcLibDynamicWaterMark.bundle */; };
-		F3A3307020DB8C3500A21014 /* capture.yuv in Resources */ = {isa = PBXBuildFile; fileRef = F3A3304D20DB8C3500A21014 /* capture.yuv */; };
-		F3A3307120DB8C3500A21014 /* 441.pcm in Resources */ = {isa = PBXBuildFile; fileRef = F3A3304E20DB8C3500A21014 /* 441.pcm */; };
 		F3A3307220DB8C3500A21014 /* question.json in Resources */ = {isa = PBXBuildFile; fileRef = F3A3305020DB8C3500A21014 /* question.json */; };
 		F3A3307320DB8C3500A21014 /* answer.json in Resources */ = {isa = PBXBuildFile; fileRef = F3A3305120DB8C3500A21014 /* answer.json */; };
 		F3A3307420DB8C3500A21014 /* AlivcQRCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3A3305420DB8C3500A21014 /* AlivcQRCodeViewController.m */; };
@@ -3398,7 +3396,6 @@
 			files = (
 				F3A1D6A520DA6F8800FEF3C4 /* Pas de Deux.mp3 in Resources */,
 				F3F6AA622068C8A000E4D5B4 /* Localizable.strings in Resources */,
-				F3A3307020DB8C3500A21014 /* capture.yuv in Resources */,
 				7DDC3E5420D3CA9900827939 /* 103-beautiful life in Resources */,
 				F3349AB720D126F8001D99B6 /* results.m4a in Resources */,
 				F3A1D6AC20DA6F8800FEF3C4 /* AlivcVideoItemCollectionViewCell.xib in Resources */,
@@ -3411,7 +3408,6 @@
 				F3A3307220DB8C3500A21014 /* question.json in Resources */,
 				F3B570202063878D0075DEAA /* readMe_Home.txt in Resources */,
 				7DA3B97A20F4BD7200CD7AB3 /* AliyunEffectFilterCell.xib in Resources */,
-				F3A3307120DB8C3500A21014 /* 441.pcm in Resources */,
 				F36A772920DC897B0069EA75 /* AliyunConfigureViewController.xib in Resources */,
 				8390996720DA364D00608DFE /* watermark.png in Resources */,
 				F3B56FE1206386AE0075DEAA /* LaunchScreen.storyboard in Resources */,

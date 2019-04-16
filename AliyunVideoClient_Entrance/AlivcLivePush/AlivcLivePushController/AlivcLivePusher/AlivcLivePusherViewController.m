@@ -710,22 +710,14 @@ int64_t getCurrentTimeUs()
 {
     //----------哎吖科技添加 开始----------
     if (!effectHandler) {
-        effectHandler = [[AYEffectHandler alloc] init];
+        effectHandler = [[AYEffectHandler alloc] initWithProcessTexture:YES];
         effectHandler.slimFace = 0.2;
         effectHandler.bigEye = 0.2;
         effectHandler.effectPath = [[NSBundle mainBundle] pathForResource:@"meta" ofType:@"json" inDirectory:@"mogulin"];
     }
     
-    NSLog(@"glerror1 %d",glGetError());
-    NSLog(@"glerror1 %d",glGetError());
-    NSLog(@"glerror1 %d",glGetError());
-
     effectHandler.rotateMode = kAYGPUImageFlipHorizonal;
     [effectHandler processWithTexture:texture width:width height:height];
-    
-    NSLog(@"glerror2 %d",glGetError());
-    NSLog(@"glerror2 %d",glGetError());
-    NSLog(@"glerror2 %d",glGetError());
     //----------哎吖科技添加 结束----------
     
     return texture;
@@ -737,6 +729,7 @@ int64_t getCurrentTimeUs()
 - (void)onDestory:(AlivcLivePusher *)pusher
 {
     //----------哎吖科技添加 开始----------
+    [effectHandler destroy];
     effectHandler = nil;
     //----------哎吖科技添加 结束----------
     //[[AlivcLibBeautyManager shareManager] destroy];
